@@ -1,0 +1,33 @@
+body {
+  background-color: #ffd1dc;
+  color: #787878;
+  font-family: "Gochi Hand", cursive;
+}
+
+.title-pic-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.title-pic {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.main {
+  margin: 20px auto 20px auto;
+  background-color: #ffffff;
+  border-radius: 0.875rem;
+  box-shadow: 0.125rem 0rem 0.25rem 0rem #CCCCCC;
+  padding: 30px;
+  max-width: min(90%, 560px);
+
+  @media (min-width: 576px) {
+    margin: 20px auto 20px auto;
+  }
+}
+
+.form {
+  max-width: min(100%, 500px);
+  margin: 0 auto;
+}
